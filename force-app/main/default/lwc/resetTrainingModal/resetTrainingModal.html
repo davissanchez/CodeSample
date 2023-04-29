@@ -1,0 +1,16 @@
+<template>
+    <lightning-modal-header label="Are you sure?"></lightning-modal-header>
+    <lightning-modal-body>
+        <div class="slds-align_absolute-center">
+            This action is irreversible. It will modify and delete records from multiple
+            objects.
+        </div>
+    </lightning-modal-body>
+    <lightning-modal-footer>
+        <div class="slds-align_absolute-center">
+            <lightning-button class="slds-p-right_small" label="Cancel" onclick={handleCancel}></lightning-button>
+            <lightning-button label="Reset Training Records" onclick={handleReset}
+                variant="destructive"></lightning-button>
+        </div>
+    </lightning-modal-footer>
+</template>

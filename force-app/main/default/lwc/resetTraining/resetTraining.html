@@ -1,0 +1,12 @@
+<template>
+    <lightning-card title="Reset Training Environment">
+        <lightning-spinner if:true={isLoading}></lightning-spinner>
+        <div class="slds-align_absolute-center slds-p-bottom_small">
+            Reset all objects back to their original state and delete records created by trainees.
+        </div>
+        <div class="slds-align_absolute-center">
+            <lightning-button onclick={handleClick} variant="destructive" label="Reset"
+                title="Resets training environment"></lightning-button>
+        </div>
+    </lightning-card>
+</template>
