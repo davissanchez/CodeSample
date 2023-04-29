@@ -1,1 +1,1 @@
-
+This sample contains two LWCs and three Apex Classes that reset a training sandbox to its original state after a batch of trainees finish their training period. The user utilizes a lightning modal to start the process, which calls apex controllers that delete/upsert records and notifies them upon success or failure. Since this project permanently lives in a sandbox, it doesn't have unit tests, but I could provide a testing sample if needed. Thanks for checking it out!
