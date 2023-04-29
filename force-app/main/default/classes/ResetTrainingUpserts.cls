@@ -8,11 +8,11 @@
 * Author: Davis Sanchez
 * Last Modified By: Davis Sanchez
 * Version: 1.0
-* Created: 2022-04-03
-* Modified: 2022-04-20
+* Created: 2023-04-03
+* Modified: 2023-04-20
 * ──────────────────────────────────────────────────────────────────────────────────────────────────
 * Changes: 
-*   2022-04-20: Added createDate and createDatetime methods and changed all uses of Date.valueOf()
+*   2023-04-20: Added createDate and createDatetime methods and changed all uses of Date.valueOf()
 *   and Datetime.valueOf() to use createDate and createDateTime. Dates in CSVs are now stored
 *   like '2023 4 13' rather than like '2023-04-13' because the latter string triggers excel to 
 *   auto format the date incorrectly, which added extra steps for Trainers when updating CSVs.
